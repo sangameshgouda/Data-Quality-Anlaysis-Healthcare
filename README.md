@@ -160,6 +160,7 @@ Use `dq_results`, `claims_error`, and dashboard-ready views to build:
 - Error trends by date/batch
 - Top failing checks
 
-[Dashboard-Summary](Dashboard-Tableau/Dashboard-summary.png)
+### Dashboard
+<img src="Dashboard-Tableau/Dashboard-summary.png" width="900" />
 
 
