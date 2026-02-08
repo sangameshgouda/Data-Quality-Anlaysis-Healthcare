@@ -1,0 +1,16 @@
+"batch_id";"dt";"error_bucket";"error_rows"
+101;"2026-02-07";"Missing member_id";2978
+101;"2026-02-08";"Missing member_id";1000
+101;"2026-02-06";"Missing member_id";2022
+101;"2026-02-07";"Missing ICD10";1786
+101;"2026-02-06";"Missing ICD10";1214
+101;"2026-02-07";"Invalid paid_amount";1105
+101;"2026-02-06";"Invalid paid_amount";750
+101;"2026-02-07";"Negative paid_amount";548
+101;"2026-02-06";"Orphan provider_id";356
+101;"2026-02-07";"Orphan provider_id";526
+101;"2026-02-06";"Negative paid_amount";370
+101;"2026-02-06";"Invalid service_date";441
+101;"2026-02-07";"Invalid service_date";650
+101;"2026-02-06";"Orphan patient_id";950
+101;"2026-02-07";"Orphan patient_id";1400

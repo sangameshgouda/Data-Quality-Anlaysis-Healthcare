@@ -1,0 +1,6 @@
+"batch_id";"dt";"total_rows";"failed_rows";"passed_rows";"pass_rate_pct";"fail_rate_pct";"dq_score";"dataset_name";"check_name";"check_failed_rows";"check_fail_pct";"severity"
+101;"2026-02-06";40448;6103;34345;84.91;15.09;84.91;"claims_raw";"Duplicate claims (extra rows)";1000;0.99;"Medium"
+101;"2026-02-06";40448;6103;34345;84.91;15.09;84.91;"claims_raw";"Orphan patient_id";3060;3.03;"High"
+101;"2026-02-06";40448;6103;34345;84.91;15.09;84.91;"claims_raw";"Missing ICD10";4000;3.96;"High"
+101;"2026-02-07";59552;8993;50559;84.9;15.1;84.9;"";"";0;0.0;""
+101;"2026-02-08";1000;1000;0;0.0;100.0;0.0;"";"";0;0.0;""
