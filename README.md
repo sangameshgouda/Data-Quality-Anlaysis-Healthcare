@@ -160,28 +160,4 @@ Use `dq_results`, `claims_error`, and dashboard-ready views to build:
 - Error trends by date/batch
 - Top failing checks
 
----
 
-## Pictorial Flow (Mermaid)
-
-```mermaid
-flowchart LR
-  A[Create Schema & Tables] --> B[Load CSV Data]
-  B --> C[claims_raw (Staging)]
-  B --> D[patients/providers/facilities (Master Data)]
-
-  C --> E[Basic Profiling<br/>Counts, Nulls, Distributions]
-  C --> F[Advanced DQ Checks<br/>Validity, Orphans, Duplicates]
-
-  C --> G[dq_eval / tmp_dq_eval<br/>Typed Fields + dup_rn/dup_cnt + final_reason]
-  D --> G
-
-  G -->|final_reason empty| H[claims_clean<br/>Trusted Data]
-  G -->|final_reason not empty| I[claims_error<br/>Quarantine + Reasons]
-
-  G --> J[dq_results<br/>Check Metrics + Severity]
-  J --> K[Dashboard Views / Extracts]
-  I --> K
-  H --> K
-
-  K --> L[BI Dashboard (Tableau/Looker)<br/>KPI + Trends + Drilldowns]
